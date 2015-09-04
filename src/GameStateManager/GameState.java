@@ -18,7 +18,7 @@ import Utils.KeyManager;
 public class GameState extends State {
 	private Pnj pnj;
 	private Pnj pnj2;
-	private Monster mob1;
+	//private Monster mob1;
 	private Player player;//test
 	private World world; //test
 	private KeyManager km;
@@ -34,14 +34,14 @@ public class GameState extends State {
 		pnj.start();
 		pnj2 = new Pnj(300, 300, 32, 32, handler, "res/pnj/essai2.xml");
 		pnj2.start();
-		mob1 = new Monster(handler, 400, 100);
+		//mob1 = new Monster(handler, 400, 100);
 	}
 	
 	public void tick(){
 		world.tick();//test
 		player.tick();//test
 		//inventory.tick();
-		mob1.tick();
+		//mob1.tick();
 		
 	}
 	// int x = 0;
@@ -51,7 +51,7 @@ public class GameState extends State {
 		
 		world.render(g);//test
 		player.render(g); //test -- on top of the world that way
-		mob1.render(g, player);
+		//mob1.render(g, player);
 		try {
 			pnj.render(g, player, km);
 			pnj2.render(g, player, km);

@@ -25,14 +25,14 @@ public class World {
 		
 	}
 	
-	public void render(Graphics g){ //episode 20
+	public void render(Graphics g){ // 20
 		
 		int xStart = (int) Math.max(0, handler.getGameCamera().getxOffset() / Tile.TILEWIDTH); //the tile the user can currently see at the far left of the screen. The max with 0 serves to not get a negative value. If you add 1 after TILEWIDTH, you'll see tiles being removed.
 		int xEnd = (int) Math.min(width, (handler.getGameCamera().getxOffset() + handler.getWidth()) / Tile.TILEWIDTH + 1);//the tile the user can currently see at the far right of the screen
 		int yStart = (int) Math.max(0,  handler.getGameCamera().getyOffset() / Tile.TILEHEIGHT); //same idea
 		int yEnd = (int) Math.min(height,  (handler.getGameCamera().getyOffset() + handler.getHeight()) / Tile.TILEHEIGHT + 1);
 		// will change with the size of the screen
-		for(int y = yStart; y < yEnd; y++){ //va dessiner -- way mor eefficient that way. Tiles not on the screen aren't drawn
+		// for(int y = yStart; y < yEnd; y++){ //va dessiner -- way more efficient this way. Tiles not on the screen aren't drawn
 			for(int x = xStart; x < xEnd; x++){
 				getTile(x, y).render(g, (int) (x * Tile.TILEWIDTH - handler.getGameCamera().getxOffset()), (int) (y * Tile.TILEHEIGHT - handler.getGameCamera().getyOffset())); //transform the x and y in Tile coordinates
 			}

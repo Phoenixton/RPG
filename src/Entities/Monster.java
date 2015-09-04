@@ -9,9 +9,9 @@ public class Monster extends Creature {
 
 	public Monster(Handler handler, float x, float y){
 		super(handler, x, y, Creature.DEFAULT_CREATURE_WIDTH, Creature.DEFAULT_CREATURE_HEIGHT);
-		// this.game = game;	not anymore with ep 19
+		// this.game = game; used to be
 		
-		//this is to customize according to the picture of the player/creatures episode collision detection
+		//this is to customize according to the picture of the player/creatures (ep collision detection)
 		bounds.x = 16;
 		bounds.y = 32;
 		bounds.width = 32;
@@ -22,7 +22,7 @@ public class Monster extends Creature {
 
 		g.setColor(Color.red);
 		g.drawRect((int)(x - handler.getGameCamera().getxOffset()), (int)(y - handler.getGameCamera().getyOffset()), width, height);
-		//possibility of moving/making an animation him here
+		//possibility of moving/making an animation here
 	}
 	
 public boolean isClose(Player player){

@@ -53,7 +53,7 @@ public class Game implements Runnable {
 		Assets.init();
 		
 		handler = new Handler(this); //this = game object
-		gameCamera = new GameCamera(handler, 0,0); //we add this (game because we are in game class) because we added it to the GameCamera constructor
+		gameCamera = new GameCamera(handler, 0,0); //add this (game because we are in game class) because added it to the GameCamera constructor
 		
 		gameState = new GameState(handler); // we can do this cause Extends.
 		menuState = new MenuState(handler); //referring this to this game class
