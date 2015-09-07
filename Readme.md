@@ -11,7 +11,7 @@ Presently the game is in a very early stage of development with preliminary work
 - World rendering 
 - SpriteSheets and animations
 - NPCs
-- 
+
 ***Basic Movements***
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; At the moment the protagonist is able to move in four directions, it is planned that the player will be able to move in eight directions in the finished game.  
