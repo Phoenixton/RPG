@@ -16,7 +16,7 @@ Presently the game is in a very early stage of development with preliminary work
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; At the moment the protagonist is able to move in four directions, it is planned that the player will be able to move in eight directions in the finished game.
 
-* ### Collision Detection 
+* Collision Detection 
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The collision detection is handled via a box surrounding the player which is used to prevent wall-hacking and to ensure enemy encounters happen.
 
