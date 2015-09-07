@@ -18,7 +18,7 @@ public class Tile {
 	
 	public static final int TILEWIDTH = 64, TILEHEIGHT = 64; //sizing the tiles
 	
-	protected BufferedImage texture; //protected because classes will expand the class
+	protected BufferedImage texture; //prtected cause classes will expand the class
 	protected final int id;
 	
 	public Tile(BufferedImage texture, int id){

@@ -6,7 +6,7 @@ import Utils.Handler;
 
 public abstract class Entity {
 
-	protected Handler handler; //was done when wanted camera moving -- changed to Handler -- used to be Game game
+	protected Handler handler; //was done when we wanted camera moving -- changed to Handler -- used to be Game game
 	protected float x, y; //classes that extends also have them -- float cause need smooth
 	
 	protected int width, height;
@@ -20,7 +20,7 @@ public abstract class Entity {
 		this.width = width;
 		this.height = height;
 	
-		bounds = new Rectangle(0, 0, width, height); //upper left corner of the image, no offset by default
+		bounds = new Rectangle(0, 0, width, height); //upper left corner of the image no offset by default
 	}
 	
 	public abstract void tick();

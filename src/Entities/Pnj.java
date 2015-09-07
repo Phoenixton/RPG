@@ -202,7 +202,7 @@ public class Pnj extends Entity implements Runnable {
 	
 	
 	
-	//"ARTIFICIAL INTELLIGENCE"
+	//ARTIFICIAL INTELLIGENCE
 	
 	public int chooseRandomDirection(){
 		Random r = new Random();
