@@ -12,23 +12,23 @@ Presently the game is in a very early stage of development with preliminary work
 - SpriteSheets and animations
 - NPCs
 
-* #### Basic Movements
+* ### Basic Movements
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; At the moment the protagonist is able to move in four directions, it is planned that the player will be able to move in eight directions in the finished game.
 
-* #### Collision Detection 
+* ### Collision Detection 
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The collision detection is handled via a box surrounding the player which is used to prevent wall-hacking and to ensure enemy encounters happen.
 
-* #### World Rendering
+* ### World Rendering
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The world is tiled-based with only the tiles displayed on the screen actually being rendered. The tiles all have a *canWalkOn* variable, which determines if the player is allowed to walk on them and thus be ignored by the collision detection box.
 
-* #### SpriteSheets
+* ### SpriteSheets
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Every element of the game is extracted from a SpriteSheet. Animations are created this way too.
 
-* #### NPCs
+* ### NPCs
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For now, the NPCs can only move randomly, and they use a XML file to store their dialogs. If the player is close enough, he can talk to them and they will stop moving as long
 
