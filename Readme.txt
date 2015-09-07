@@ -12,41 +12,41 @@ Presently the game is in a very early stage of development with preliminary work
 - SpriteSheets and animations
 - NPCs
 
-***Basic Movements***
+* #### Basic Movements
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; At the moment the protagonist is able to move in four directions, it is planned that the player will be able to move in eight directions in the finished game.  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; At the moment the protagonist is able to move in four directions, it is planned that the player will be able to move in eight directions in the finished game.
 
+* #### Collision Detection 
 
-***Collision Detection***
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The collision detection is handled via a box surrounding the player which is used to prevent wall-hacking and to ensure enemy encounters happen.
 
+* #### World Rendering
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The collision detection is handled via a box surrounding the player which is used to prevent wall-hacking and to ensure enemy encounters occur.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The world is tiled-based with only the tiles displayed on the screen actually being rendered. The tiles all have a *canWalkOn* variable, which determines if the player is allowed to walk on them and thus be ignored by the collision detection box.
 
-***World Rendering***
+* #### SpriteSheets
 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Every element of the game is extracted from a SpriteSheet. Animations are created this way too.
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The world is tile-based with only the tiles displayed on screen actually being rendered. The tiles all have a *canWalkOn* variable, which determines if the player is allowed to walk on them and thus be ignored by the collision detection box.
+* #### NPCs
 
-***SpriteSheets***
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Every element of the game is extracted from a SpriteSheet. The same process is also used to create Animations.
-
-***NPCs***
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For now, the NPCs can only move randomly, and they use a XML file to store their dialogs. If the player is close enough, they are able to interact with them and they will stop moving for as long as the interaction takes place.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For now, the NPCs can only move randomly, and they use a XML file to store their dialogs. If the player is close enough, he can talk to them and they will stop moving as long
 
 
 ## How to play
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; You just extract and run in it *Eclipse* as your project for now ! Later stage will involve a real launcher, promise !
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; You just extract and run in it Eclipse as your project for now ! Later stage will involve a real launcher, promise !
 
 ## Controls
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For now, the key bindings go as follow : 
 
-* You use *W*, *A*, *S*, *D* for movement.
+* *Z* is for up
+* *S* is for down
+* *Q* is for left
+* *D* is for right
 * *Enter* is to speak with NPCs
-* Pressing *I* should soon display the inventory.
+* *I* should soon display the inventory
 
 # Yet to be done
 - ### Inventory
@@ -61,10 +61,7 @@ Presently the game is in a very early stage of development with preliminary work
 
 - ### World Rendering
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I'll be honest, I'm more into hand-crafted worlds than randomly generated ones. This time, think *Magical Starsign* instead of *Persona 4* or *Oreshika*. So, for now, I do intend to create each map manually.  
-
-
-
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I'll be honest, I'm more into hand-crafted worlds than randomly generated ones. This time, think *Magical Starsign* instead of *Persona 4* or *Oreshika*. So, for now, I do intend to create each map manually. 
 
 
 ## Resources used
