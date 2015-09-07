@@ -54,7 +54,7 @@ Presently the game is in a very early stage of development with preliminary work
 
 - ### NPC Interactions
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; As the game was envisioned to be an RPG, NPC interactions ought to appear somewhere. For now NPC can display simple lines of dialogue, but there are plans to make them react to the player's actions. Multiple answers to a question are not a priority, as it is not one of my favourite focuses of modern RPGs, but could be added later on if needs be.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; As the game was envisioned to be an RPG, NPC interactions ought to appear somewhere. For now NPCs can display simple lines of dialogue, but there are plans to make them react to the player's actions. Multiple answers to a question are not a priority, as it is not one of my favourite focuses of modern RPGs, but could be added later on if needs be.
 
 - ### Combat
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Combat hasn't been very much discussed, and that's because nothing has truly been done for now to implement it. As I see it, combat will not happen randomly. Think *Persona 4* instead of *Dragon Quest 8* if you want. I feel like there could be something a bit strategic added there to make the player willing to start his fight in the best conditions. But combat is certain not to be uploaded for a long time, as I've not even determined if it will be turn-based or not.
