@@ -66,6 +66,9 @@ Presently the game is in a very early stage of development with preliminary work
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I'll be honest, I'm more into hand-crafted worlds than randomly generated ones. This time, think *Magical Starsign* instead of *Persona 4* or *Oreshika*. So, for now, I do intend to create each map manually. 
 
+- ### And so many more things ...
+
+
 
 ## Resources used
 
