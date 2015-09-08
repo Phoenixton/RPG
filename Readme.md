@@ -1,14 +1,14 @@
 # RPG Project
 
-The goal of this project was to attempt to create a 2D RPG with an original story. 
+The goal of this project was to attempt to create a 2D RPG with an original story.
 &nbsp; I started the project in July 2015 as a way to improve my coding in Java and to learn the basics of Game Development.
 
-Presently the game is in a very early stage of development with preliminary work having been completed on the following areas: 
+Presently the game is in a very early stage of development with preliminary work having been completed on the following areas:
 
 - Basic movements
 - Camera
-- Collision detection 
-- World rendering 
+- Collision detection
+- World rendering
 - SpriteSheets and animations
 - NPCs
 
@@ -42,7 +42,6 @@ Presently the game is in a very early stage of development with preliminary work
 
 ## Controls
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For now, the key bindings go as follow : 
 
 * *W*, *A*, *S*, *D* for movement
 * *Enter* to speak with NPCs
@@ -57,7 +56,7 @@ Presently the game is in a very early stage of development with preliminary work
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; As the game was envisioned to be an RPG, NPC interactions ought to appear somewhere. For now NPCs can display simple lines of dialogue, but there are plans to make them react to the player's actions. Multiple answers to a question are not a priority, as it is not one of my favourite focuses of modern RPGs, but could be added later on if needs be.
 
 - ### Combat
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Combat hasn't been very much discussed, and that's because nothing has truly been done for now to implement it. As I see it, combat will not happen randomly. Think *Persona 4* instead of *Dragon Quest 8* if you want. I feel like there could be something a bit strategic added there to make the player willing to start his fight in the best conditions. But combat is certain not to be uploaded for a long time, as I've not even determined if it will be turn-based or not.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Little work has been done in terms of developing a combat system t. As I see it, combat will not happen randomly, think *Persona 4* instead of *Dragon Quest 8* if you want. A strategic focus is desired to encourage the player to only fight when they have desirable conditions. However a combat system is unlikely to be implemented for some time, as the decision as to whether combat will or will not be turned based is yet to be made.
 
 - ### World Rendering
 
@@ -65,9 +64,6 @@ Presently the game is in a very early stage of development with preliminary work
 
 
 
-
-
 ## Resources used
 
-I took a lot of art from [OpenGameArt](http://opengameart.org/) in order to try the code written, so all credit goes there.
-
+A lot of the artwork for the game was taken from [OpenGameArt](http://opengameart.org/) and used in order to test the code.
